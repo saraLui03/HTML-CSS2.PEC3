@@ -43,10 +43,13 @@
     "posthtml-include": "^2.0.1",
     "rimraf": "^6.0.1",
     "sharp": "^0.33.5",
+    "stylelint": "^16.26.1",
+    "stylelint-config-recommended-scss": "^16.0.2",
+    "stylelint-scss": "^6.14.0",
     "tailwindcss": "^4.1.18"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.0.1",
+    "@fortawesome/fontawesome-free": "^7.1.0",
     "@tailwindcss/vite": "^4.1.18"
   },
   "main": "index.js",
