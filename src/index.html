@@ -2,17 +2,135 @@
 
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss" />
+    <!-- do not remove this line! -->
     <title>Ensaimada Mallorquina - Inicio</title>
   </head>
   <body>
+    <include src="./views/header.html"></include>
+     <main class="sectionblock">
 
+  <!-- Sección 1: Portada -->
+  <section class="sectionblock__content">
+    
+    <h1 class="sectionblock__title">
+      Primera Jornada de la Ensaimada del Ayuntamiento de Santa Margalida
+    </h1>
+
+    <div class="sectionblock__wrapper-box">
+  <div class="sectionblock__wrapper-box__frame sectionblock__wrapper-box__frameA">
+    <img src="./assets/images/ensaimada1.png" alt="Ensaimadas sobre mantel">
+  </div>
+
+  <div class="sectionblock__wrapper-box__frame sectionblock__wrapper-box__frameB">
+    <img src="./assets/images/ensaimada3.png" alt="Espolvoreando azúcar en polvo">
+  </div>
+
+  <div class="sectionblock__wrapper-box__frame sectionblock__wrapper-box__frameC">
+    <img src="./assets/images/ensaimada2.jpg" alt="Ensaimada cortada">
+  </div>
+
+  <div class="sectionblock__wrapper-box__frame sectionblock__wrapper-box__frameD">
+    <img src="./assets/images/ensaimada4.jpg" alt="Ensaimada en caja">
+  </div>
+</div>
+
+
+    <h2 class="sectionblock__subtitle">La tradición mallorquina en cada vuelta</h2>
+
+    <p class="sectionblock__text">Descubre el dulce más emblemático de Mallorca.</p>
+
+    <p class="sectionblock__text">
+      Las Jornadas de la Ensaimada del Ayuntamiento de Santa Margalida te invitan a sumergirte
+      en la historia, la elaboración y el sabor de uno de los tesoros gastronómicos más queridos
+      de la isla. Un encuentro abierto a todos —vecinos, visitantes, curiosos y amantes de la
+      repostería tradicional— donde podrás aprender, degustar y conocer a fondo el proceso
+      artesanal que mantiene viva esta receta desde generaciones.
+    </p>
+
+    <p class="sectionblock__text">
+      A lo largo de las jornadas, maestros ensaimaderos compartirán sus secretos, técnicas y
+      trucos para conseguir la textura ligera y el sabor inconfundible de la auténtica ensaimada
+      mallorquina. También descubrirás sus variantes más populares, su importancia cultural y
+      cómo ha evolucionado sin perder su esencia.
+    </p>
+
+    <p class="sectionblock__text">
+      Un evento pensado para disfrutar en familia, fomentar la tradición local y celebrar el orgullo
+      de un producto que forma parte de nuestra identidad.
+    </p>
+  </section>
+
+  <!-- Sección 2: Contacto del taller -->
+  <section class="index-section2">
+
+    <div class="index-section2__contact-details">
+
+      <h2 class="index-section2__contact-title">
+        Taller de Ensaimadas — Ayuntamiento de Santa Margalida
+      </h2>
+
+      <p class="index-section2__description">
+        Centro Cultural de Santa Margalida — Jornadas de gastronomía tradicional
+      </p>
+
+      <div class="index-section2__contact-list" role="list">
+
+        <!-- ITEM -->
+        <div class="index-section2__contact-item" role="listitem">
+          <span class="index-section2__chip" aria-hidden="true"></span>
+          <div>
+            <strong><i class="fa-solid fa-location-dot"></i> Ubicación:</strong>
+            <div class="small">Plaça de la Vila, s/n — 07440 Santa Margalida (Mallorca)</div>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="index-section2__contact-item" role="listitem">
+          <span class="index-section2__chip" aria-hidden="true"></span>
+          <div>
+            <strong><i class="fa-solid fa-pen-to-square"></i> Inscripciones abiertas:</strong>
+            <div class="small">Del 1 al 16 de enero — Ayuntamiento de Santa Margalida</div>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="index-section2__contact-item" role="listitem">
+          <span class="index-section2__chip" aria-hidden="true"></span>
+          <div>
+            <strong><i class="fa-solid fa-phone"></i> Teléfono de información:</strong>
+            <div class="small">
+              <a href="tel:+34971XXXXXX">971 XXX XXX</a> (Oficina de Cultura)
+            </div>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="index-section2__contact-item" role="listitem">
+          <span class="index-section2__chip" aria-hidden="true"></span>
+          <div>
+            <strong><i class="fa-regular fa-envelope"></i> Correo electrónico:</strong>
+            <div class="small">
+              <a href="mailto:gastronomia@santamargalida.cat">gastronomia@santamargalida.cat</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="index-section2__contact-item" role="listitem">
+          <span class="index-section2__chip" aria-hidden="true"></span>
+          <div>
+            <strong><i class="fa-regular fa-clock"></i> Horario de atención:</strong>
+            <div class="small">Lunes-Viernes, 09:00 — 14:00</div>
+          </div>
+        </div>
+  </section>
+</main>
     <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-      <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+    <h1 class="text-3xl font-bold underline"></h1>
   </body>
 </html>
