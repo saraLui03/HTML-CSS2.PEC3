@@ -12,20 +12,13 @@
     <include src="./views/header.html"></include>
      <main class="bg-white rounded p-4 my-4 flex flex-col items-center  content-center w-[80%] m-auto gap-4">
 
-  <!-- Sección 1: Portada -->
   <section class="flex flex-col items-center content-center">
     
     <h1 class="text-black font-serif text-center font-weight-bold  bg-text py-4">
       Primera Jornada de la Ensaimada del Ayuntamiento de Santa Margalida
     </h1>
 
-    <div class="grid grid-cols-4 gap-4 w-full md:w-1/2">
-      <img class="transition duration-700 hover:z-50 ease-in-out hover:scale-125 rounded-xl col-span-2" src="/src/assets/images/ensaimada1.png" />
-      <img class="transition duration-700 hover:z-50 ease-in-out hover:scale-125 rounded-xl col-span-2 row-span-2" src="/src/assets/images/ensaimada3.png" />
-      <img class="transition duration-700 hover:z-50 ease-in-out hover:scale-125 rounded-xl aspect-square"  src="/src/assets/images/ensaimada2.jpg" />
-      <img class="transition duration-700 hover:z-50 ease-in-out hover:scale-125 rounded-xl aspect-square" src="/src/assets/images/ensaimada4.jpg" />
-    </div>
-
+      <include src="./views/portada_ensaimadas.html"></include> <!-- componente con include-->
 
     <h2 class="text-4xl">La tradición mallorquina en cada vuelta</h2>
 
@@ -52,70 +45,8 @@
     </p>
   </section>
 
-  <!-- Sección 2: Contacto del taller -->
-  <section class="">
+ <include src="./views/contacto_taller.html"></include> <!-- componente con include-->
 
-    <div class="place-items-center">
-
-      <h2 class="text-4xl">
-        Taller de Ensaimadas — Ayuntamiento de Santa Margalida
-      </h2>
-
-      <p class="font-light text-xl ">
-        Centro Cultural de Santa Margalida — Jornadas de gastronomía tradicional
-      </p>
-
-      <div class="" role="list">
-
-        <!-- ITEM -->
-        <div class="font-light text-xl  " role="listitem">
-          <span class="index-section2__chip" aria-hidden="true"></span>
-          <div><br>
-            <strong><i class="fa-solid fa-location-dot"></i> Ubicación:</strong>
-            <div class="small">Plaça de la Vila, s/n — 07440 Santa Margalida (Mallorca)</div>
-          </div>
-        </div>
-
-        <!-- ITEM -->
-        <div class="font-light text-xl  " role="listitem">
-          <span class="index-section2__chip" aria-hidden="true"></span>
-          <div>
-            <strong><i class="fa-solid fa-pen-to-square"></i> Inscripciones abiertas:</strong>
-            <div class="small">Del 1 al 16 de enero — Ayuntamiento de Santa Margalida</div>
-          </div>
-        </div>
-
-        <!-- ITEM -->
-        <div class="index-section2__contact-item" role="listitem">
-          <span class="index-section2__chip" aria-hidden="true"></span>
-          <div>
-            <strong><i class="fa-solid fa-phone"></i> Teléfono de información:</strong>
-            <div class="small">
-              <a href="tel:+34971XXXXXX">971 XXX XXX</a> (Oficina de Cultura)
-            </div>
-          </div>
-        </div>
-
-        <!-- ITEM -->
-        <div class="index-section2__contact-item" role="listitem">
-          <span class="index-section2__chip" aria-hidden="true"></span>
-          <div>
-            <strong><i class="fa-regular fa-envelope"></i> Correo electrónico:</strong>
-            <div class="small">
-              <a href="mailto:gastronomia@santamargalida.cat">gastronomia@santamargalida.cat</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- ITEM -->
-        <div class="index-section2__contact-item" role="listitem">
-          <span class="index-section2__chip" aria-hidden="true"></span>
-          <div>
-            <strong><i class="fa-regular fa-clock"></i> Horario de atención:</strong>
-            <div class="small">Lunes-Viernes, 09:00 — 14:00</div>
-          </div>
-        </div>
-  </section>
 </main>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script>
